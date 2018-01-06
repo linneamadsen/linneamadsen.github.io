@@ -6,12 +6,20 @@
         <link rel="stylesheet" type="text/css" href="mystyle.css">
         <script src= 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>
         </script>
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             $(document).ready(function(){
                 // .click
                 $('#click-button').click(function(){
                     alert('It worked!');
                 })
+                $( "#show-button" ).click(function() {
+                      $( "#ice-cream" ).toggle("fast", function() {
+                      });
+                    });
+                    //.hide
+                    $( "#hide-button" ).click(function() {
+                      $( "#ice-cream" ).toggle( "fast" );
+                    });
                 // // .addClass
                 // $("#addclass-button").click(function(){
                 //     $("#addclass-button-text").addClass("addclass")
@@ -102,7 +110,7 @@
                 //
                 // });
             });
-       </script>
+       </script> -->
     </head>
     <body id="maincontainer">
         <div id="sidebar">
@@ -127,12 +135,24 @@
                 <br>
                 <ul class="firstorder">
                     <li>
-                        <p><strong>Northwestern University</strong>, Evanston, IL, 2013</p>
+                        <p><strong><button id="show-button">Northwestern University</button></strong>, Evanston, IL, 2013</p>
                         <p><em>BA in Anthropology, minor in Economics</em></p>
-                        <ul>
-                            <li>Concentration in Arabic</li>
-                            <li>Analysis of developing countries from economic and sociocultural perspectives</li>
-                        </ul>
+
+<br>
+
+
+
+            <div id="ice-cream" style="display: none">
+                <ul>
+                    <li>Concentration in Arabic</li>
+                    <li>Analysis of developing countries from economic and sociocultural perspectives</li>
+                </ul>
+                <button id="hide-button">Less
+                </button>
+             </div>
+
+
+
                     </li>
                     &nbsp;
                     <li>
