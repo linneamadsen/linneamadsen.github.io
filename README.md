@@ -1,0 +1,2 @@
+# linneamadsen.github.io
+I want to create an online resume, with other information that helps people understand who I am better. I am interested in applying for coding internships, so I wanted to make sure that my resume is "out there" first. Now, I'm working on the other pages. I plan to build in some jQuery just to show that I can, but I'm not a designer, so I'm not sure of the best way to do that. 
