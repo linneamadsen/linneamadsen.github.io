@@ -42,33 +42,35 @@
 
 
 #sidebar {
-    color: grey;
+    color: lightgrey;
     display: inline-block;
-    width: 220px;
+    width: 250px;
     height: 100%;
     vertical-align: top;
-
+    padding-left: 50px;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #resume_text {
     padding-top: 15px;
     color: lightgrey;
     display: inline-block;
-    width: 70%;
+    width: 600px;
     height: 100%;
-
     margin-left: 100px;
 }
 
-#photo {
-    padding-left: 15px;
-    margin-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 300px;
-
-
+.img-circle {
+    border-radius: 50%;
+    max-width:60%;
+    max-height:60%;
+    margin-left: 50px;
+    border-style: dotted;
+    padding: 10px;
 }
+
 
 .firstorder {
     list-style: none;
