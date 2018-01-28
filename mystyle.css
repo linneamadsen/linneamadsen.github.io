@@ -4,12 +4,26 @@
     font-family: sans-serif;
     font-weight: lighter;
     background-color: #929292;
+    font-weight: lighter;
+    font-family: "Verdana";
 }
 
 #maincontainer {
     width:100%;
     height: 100%;
     margin: 50px;
+}
+#name {
+    font-size: 2vw;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28pt;
+    letter-spacing: 2px;
+    color: #202020;
+    padding-top: 35px;
+
 }
 
 #topbar {
@@ -18,27 +32,15 @@
     background-color: darkgrey;
 }
 
-#div1 {
-    color: pink;
-    width: 200px;
+.menu_top {
+    background-color: pink;
+    width: 19%;
     display: inline-block;
+    padding: 0px;
+    margin: 0px;
 }
 
-#div2 {
-    color: yellow;
-    display: inline-block;
-    width: 200px;
-}
 
-#div3 {
-    display: inline-block;
-    width: 200px;
-}
-
-#div4 {
-    display: inline-block;
-    width: 200px;
-}
 
 #sidebar {
     color: grey;
@@ -50,20 +52,22 @@
 
 }
 
-#rest {
+#resume_text {
+    padding-top: 15px;
     color: lightgrey;
     display: inline-block;
-    width: 600px;
+    width: 70%;
     height: 100%;
 
-    margin-left: 15px;
+    margin-left: 100px;
 }
 
 #photo {
-    padding-left: 48px;
+    padding-left: 15px;
+    margin-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 172px;
+    width: 300px;
 
 
 }
@@ -86,9 +90,9 @@ li {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px;
+    margin-left: 30px;
     cursor: pointer;
     border-radius: 25px;
-    font-weight: lighter;
-    font-family: "Verdana";
+
 }

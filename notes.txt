@@ -1,0 +1,26 @@
+Medium sell:
+Hard sell:
+I'm a Northwestern graduate
+
+not sure if I like this Verdana font.
+What am I supposed to put on my home page? I think I could do the sell thing, but it wouldn't be as cool or intense as the other examples I've seen? I could make it like
+Should I hire you:
+Easy sell - I mean, I make pretty good cookies which I am willing to share.
+Medium sell -
+Hard sell - How could you possibly live without me!?!?!?!?!
+
+I'm not sure that I can do this without coming off as just insufferable. I'll leave this portion to later, and I'm not going to focus on it right now. Instead, what should be on the home page of my website? I think I should have a few blurbs about myself.
+- Living in Jordan for 2 years
+- Studied at Northwestern
+- Speak a lot of languages
+- Make really delicious grape leaves
+- Make a mediocre scarf using one stitch
+
+
+Best practice questions:
+Is it better to have a div go underneath another div or to have the page cut it off on the right if it's too wide?
+
+
+I could make a gallery of the books that I've read and then have it scrollable. In the meantime, I can just link to individual Instagram posts.
+
+Should I put my phone number underneath my name?
