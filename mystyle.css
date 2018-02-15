@@ -114,6 +114,11 @@ li {
 .button:hover{
     background-color: #e59ab3;
 }
+
+.call_to_action:hover{
+    background-color: #929292;
+
+}
 .companyDescription{
     font-size: 10pt;
 }
@@ -121,4 +126,197 @@ li {
 .section {
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.comingSoon {
+    font-size: 36px;
+    text-align: center;
+}
+
+.call_to_action{
+    display: inline-block;
+
+    background-color: #e59ab3;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-color:#e59ab3;
+}
+
+#yellow-phone{
+    display: in
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #929292;
+    font-family: "Verdana";
+    font-weight: lighter;
+}
+
+#maincontainer {
+    width:100%;
+    height: 100%;
+    margin: 50px;
+}
+#name {
+    font-size: 2vw;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28pt;
+    letter-spacing: 2px;
+    color: #202020;
+    padding-top: 35px;
+
+}
+
+#social {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 15px;
+    display: inline-block;
+}
+
+#topbar {
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.menu_button {
+
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+
+#sidebar {
+    color: lightgrey;
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    vertical-align: top;
+    padding-left: 50px;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#resume_text {
+    padding-top: 15px;
+    color: lightgrey;
+    display: inline-block;
+    width: 625px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    max-width:60%;
+    max-height:60%;
+    margin-left: 50px;
+    border-style: dotted;
+    padding: 10px;
+}
+
+
+.firstorder {
+    list-style: none;
+}
+
+li {
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.button {
+    background-color: #929292;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-color:#e59ab3;
+
+
+}
+
+.button:hover{
+    background-color: #e59ab3;
+}
+
+.call_to_action:hover{
+    background-color: #929292;
+
+}
+.companyDescription{
+    font-size: 10pt;
+}
+
+.section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.comingSoon {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.call_to_action{
+    display: inline-block;
+    background-color: #e59ab3;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    padding: 25px 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-color:#e59ab3;
+}
+
+#yellow-phone{
+    display: inline-block;
+}
+
+
+#contactPage {
+    font-size: 72px;
+    text-align: center;
+    display: inline-block;
+    background-color: yellow;
+    position: absolute;
+    padding-top: 50px;
 }
