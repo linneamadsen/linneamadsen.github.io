@@ -25,6 +25,7 @@
 
 }
 
+
 #social {
     margin: auto;
     width: 50%;
@@ -316,7 +317,7 @@ li {
     font-size: 72px;
     text-align: center;
     display: inline-block;
-    background-color: yellow;
     position: absolute;
     padding-top: 50px;
+    font-weight: 100;
 }
